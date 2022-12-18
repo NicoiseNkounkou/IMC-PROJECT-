@@ -7,6 +7,41 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Calcul <span>d'IMC</span></h1>
+        
+        <form >
+
+            <div class="inputs-container">
+                <div class="input-group">
+                    <label for="height">Votre taille en centimètre </label>
+
+                    <input type="number"
+                    placeholder="Votre taille en cm"
+                    id="height"
+                    class="heght-input">
+                </div>
+
+                <div class="input-group">
+                    <label for="weight">Votre poids en kg </label>
+
+                    <input type="number"
+                    placeholder="Votre poids en kg "
+                    id="weight"
+                    class="weight-input">
+                </div>
+            </div>
+
+            <button>Calculer votre IMC</button>
+        </form>
+        <div class="info">
+            <p class="bmi_value">0</p>
+            <p class="result">En attente du résultat...</p>
+        </div>
+    </div>
+
+   
+
+ <script src="main.js"></script>
 </body>
 </html>
